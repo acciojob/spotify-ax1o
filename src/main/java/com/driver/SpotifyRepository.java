@@ -386,7 +386,7 @@ public class SpotifyRepository {
         }
 
         if(flagSong == 1){
-            throw new Exception("ong does not exist");
+            throw new Exception("Song does not exist");
         }
 
         //check if the song is there in the songLikeMap
